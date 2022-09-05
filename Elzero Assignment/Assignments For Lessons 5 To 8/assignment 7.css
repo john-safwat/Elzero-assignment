@@ -1,0 +1,42 @@
+.assign-1-shape-1
+{
+    width:500px;
+    margin:auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(138, 43, 226);
+    background-color: hsl(271, 76%, 53%);
+    background-color: #8a2be2;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color: aliceblue;
+}
+.assign-1-shape-2
+{
+    width:500px;
+    margin:auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(137, 43, 226, 0.5);
+    background-color: hsla(271, 76%, 53%, 0.5);
+    background-color: #892be280;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color: aliceblue;
+}
+.assign-1-shape-3
+{
+    width:500px;
+    margin:auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(137, 43, 226, 0.25);
+    background-color: hsla(271, 76%, 53%, 0.25);
+    background-color: #892be240;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color: aliceblue;
+}

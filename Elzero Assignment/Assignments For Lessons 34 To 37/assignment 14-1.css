@@ -1,0 +1,129 @@
+div
+{
+    background-color: #EEE;
+    font-size: 20px;
+    width: 600px;
+    height: 60px;
+    line-height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 10px ;
+    text-align: center;
+}
+div:empty
+{
+    background-color: red;
+}
+
+.second
+{
+    background-color: #DDD;
+    width: 420px;
+    height: 80px;
+    text-align:center;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 80px;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    
+}
+.second span
+{
+    background-color: red;
+    color: white;
+    width: 35px;
+    height: 80%;
+    display: inline-block;
+    position: absolute;
+    left: -20px;
+    top:6px;
+    line-height: 70px;
+    font-size: 30px;
+}
+.p
+{
+    position: relative;
+    background-color: #EEE;
+    font-size: 20px;
+    width: 500px;
+    height: 60px;
+    line-height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 10px ;
+    text-align: left;
+    padding-left: 30px;
+    box-shadow: 5px 5px 10px 1px rgb(158, 158, 158) ;
+}
+.p:hover:before
+{
+    content: attr(data-person);
+    margin-right: 20px;
+    position: absolute;
+    left: -120px;
+    background-color: #DDD;
+    width: 73px;
+    padding-left: 10px;
+    height:40px;
+    top:10px;
+    line-height: 40px; 
+}
+.p:hover:after
+{
+    content:"";
+    position: absolute;
+    left: -42px;
+    border-width: 15px;
+    border-style: solid;
+    border-color:transparent rgb(219, 40, 99) transparent transparent;
+    width: 0;
+    padding-left: 10px;
+    height:0;
+    top:15px;
+    line-height: 40px; 
+}
+.p:hover
+{
+    border-left: 5px solid rgb(219, 40, 99);
+    
+}
+.wezza
+{
+    counter-increment: wezza;
+    position: relative;
+    background-color: #EEE;
+    font-size: 20px;
+    width: 500px;
+    height: 60px;
+    line-height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 10px ;
+    text-align: left;
+    padding-left: 30px;
+    box-shadow: 5px 5px 10px 1px rgb(158, 158, 158) ;
+}
+.wezza:hover:after
+{
+    position: absolute ;
+    content: "";
+    width: 6px;
+    height:100%;
+    background-color: rgb(229, 73, 46);
+    right:0;
+}
+.wezza:hover:before
+{
+    position: absolute ;
+    content:counter(wezza);
+    width: 60px;
+    height:100%;
+    background-color: rgb(253, 71, 39);
+    left:-60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}

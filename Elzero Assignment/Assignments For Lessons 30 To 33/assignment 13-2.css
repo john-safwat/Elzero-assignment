@@ -1,0 +1,65 @@
+body
+{
+    padding:20px
+}
+div
+{
+    background-color: rgb(238, 238, 238);
+    width: 400px;
+    margin:auto;
+    text-align: center;
+    text-transform: capitalize;
+    border-top: 4px solid rgb(229, 73, 46);
+    border-bottom: 4px solid rgb(229, 73, 46);
+    border-right: 4px solid rgb(83, 146, 248);
+    border-left: 4px solid rgb(83, 146, 248);
+    font-size: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2;
+    line-height: 1.6;
+    position :relative;
+}
+.top-left,
+.bottom-left,
+.top-right,
+.bottom-right
+{
+    background-color:rgb(107, 142, 254) ;
+    width: 40px;
+    text-align: center;
+    color:white;
+    display: block;
+    position:absolute;
+}
+
+.top-left,
+.bottom-left
+{
+    border-right: 3px solid #e5492e;
+}
+.top-right,
+.bottom-right
+{
+    border-left: 3px solid #e5492e;
+}
+.top-left
+{
+    top:-13px;
+    left:-21px;
+}
+.bottom-left
+{
+    top:220px;
+    left:-21px;
+}
+.top-right
+{
+    top:-13px;
+    left:420px
+}
+.bottom-right
+{
+    top:220px;
+    left:420px;
+}

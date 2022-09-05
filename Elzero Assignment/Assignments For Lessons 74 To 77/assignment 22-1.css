@@ -1,0 +1,375 @@
+.task-1
+{
+    width: 110px;
+    height: 110px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: rotate 1s linear 0s infinite  ;
+}
+.task-1:hover
+{
+    animation-play-state: paused ;
+}
+.task-1 .pink,
+.task-1 .blue,
+.task-1 .yallow
+{
+    border-radius: 50%;
+    position: absolute;
+    border-style: solid;
+    border-width: 7px;
+}
+
+.task-1 .pink
+{
+    width: 50px;
+    height: 50px;
+    border-color:rgb(221, 38, 84);
+    border-bottom-color: transparent ;
+    transform: rotate(90deg);
+}
+.task-1 .blue
+{
+    width: 70px;
+    height: 70px;
+    border-color:rgb(86, 146, 255);    
+    border-bottom-color: transparent ;
+    transform: rotate(-90deg);
+    
+}
+.task-1 .yallow
+{
+    width: 90px;
+    height: 90px;
+    border-color:rgb(240, 162, 0);        
+    border-bottom-color: transparent ;
+    transform: rotate(0deg);
+    
+}
+
+.task-2
+{
+    
+    width: 110px;
+    height: 110px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 7px;
+    width: 50px;
+    height: 50px;
+    border-color:rgb(221, 38, 84);    
+    border-bottom-color: transparent ;
+    animation: rotate 1s linear 0s infinite  ;
+    animation-play-state: paused;
+    
+}
+.task-2:hover,
+.task-2:hover:after,
+.task-2:hover:before
+{
+    animation-play-state: running;
+}
+
+
+.task-2::before
+{
+    border-radius: 50%;
+    position: absolute;
+    border-style: solid;
+    border-width: 7px;
+    content: "";
+    width: 70px;
+    height: 70px;
+    border-color:rgb(86, 146, 255);    
+    border-bottom-color: transparent ;
+    animation: rotate 2s linear 0s infinite  ;
+    animation-play-state: paused;
+    
+}
+
+.task-2::after
+{
+    border-radius: 50%;
+    position: absolute;
+    border-style: solid;
+    border-width: 7px;
+    content: "";
+    width: 90px;
+    height: 90px;
+    border-color:black;        
+    border-bottom-color: transparent ;
+    animation: rotate 3s linear 0s infinite  ;
+    animation-play-state: paused;
+    
+}
+
+span
+{
+    position: relative;    
+    width: 100px;
+    height: 100px;
+    background-color: #EEE;
+    display: inline-block;
+    margin-left: calc(50% - 50px);    
+    border-radius: 50%;
+    border-width: 7px;
+    border-style: solid;
+    border-color: black;
+    border-bottom-color: transparent;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+@keyframes rotate {
+    
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(1turn);
+    }
+}
+/*******************************************************************/
+
+
+body
+{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fill;
+    height: 100vh;
+    margin: 0;
+}
+
+.box
+{
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    padding: 20px;
+    position: relative;
+    
+}
+
+.e
+{
+    position: relative;
+    background-color: transparent;
+    grid-column-start: 1/1;
+    grid-row-start: 1/1;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 100px 300px ;
+    grid-template-rows: repeat(3 , 100px);
+    align-content: space-between;
+}
+
+.box .e .one
+{
+    background-color: rgb(50, 50, 52);
+    grid-column: 1/1;
+    grid-row: 1/4;
+}
+.box .e .two
+{
+    background-color: rgb(50, 50, 52);
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+.box .e .three
+{
+    background-color: rgb(50, 50, 52);
+    grid-column: 2/2;
+    grid-row: 2/3;
+}
+.box .e .four
+{
+    background-color: rgb(50, 50, 52);
+    grid-column: 2/2;
+    grid-row: 3/4;
+}
+
+.box .e .yallow-1
+{
+    background-color:rgb(242, 155, 0) ;
+    width: 60px;
+    height:60px;
+    position: absolute;
+    margin: 40px ;
+    right:0;
+    animation-name: move-2;
+    animation-duration: 10s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+.l
+{
+    position: relative;
+    background-color: transparent;
+    grid-column-start: 1/1;
+    grid-row-start: 1/1;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 100px 300px ;
+    grid-template-rows: repeat(3 , 100px);
+    align-content: space-between;
+}
+.box .l .five
+{
+    background-color: rgb(50, 50, 52);
+    grid-column: 1/1;
+    grid-row: 1/4;
+}
+.box .l .six
+{
+    background-color: rgb(50, 50, 52);
+    grid-column: 2/2;
+    grid-row: 3/4;
+}
+
+.box .l .yallow-2
+{
+    background-color:rgb(242, 155, 0) ;
+    width: 60px;
+    height:60px;
+    position: absolute;
+    margin: 40px ;
+    right:0;
+    bottom: 0;
+    animation-name: move-1;
+    animation-duration: 10s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move-1 
+{
+    0%
+    {
+        opacity: 0%;
+        right: 0;
+        bottom: 0;
+    }
+    2%
+    {
+        opacity: 100%;        
+        right: 0;
+        bottom: 0;
+    }
+    10%
+    {
+        opacity: 100%;        
+        right: 300px;
+        bottom: 0;
+    }
+    24%
+    {
+        opacity: 100%;        
+        right: 300px;
+        bottom: 460px;
+    }
+    26%
+    {
+        opacity: 00%;        
+        right: 300px;
+        bottom: 460px;
+    }
+    100%
+    {
+        opacity: 00%;        
+        right: 300px;
+        bottom: 460px;
+    }
+    
+}
+
+@keyframes move-2
+{
+    0%
+    {   
+        opacity: 100%;        
+        right: 0px;
+        top:0;
+    }
+    26%
+    {   
+        opacity: 100%;        
+        right: 0px;
+        top:0;
+    }
+    34%
+    {
+        opacity: 100%;        
+        right: 300px;
+        top:0;
+    }
+    42%
+    {
+        opacity: 100%;        
+        right: 300px;
+        top:38%;
+    }
+    50%
+    {   
+        opacity: 100%;        
+        right: 0px;
+        top:38%;
+    }
+    58%
+    {
+        opacity: 100%;        
+        right: 300px;
+        top:38%;
+    }
+    66%
+    {
+        opacity: 100%;        
+        right: 300px;
+        top:76%;
+    }
+    74%
+    {
+        opacity: 100%;        
+        right: 00px;
+        top:76%;
+    }
+    82%
+    {
+        opacity: 100%;        
+        right: 300px;
+        top:76%;
+    }
+    92%
+    {
+        opacity: 100%;        
+        right: 300px;
+        top:0%;
+    }
+    100%
+    {
+        opacity: 100%;        
+        right:00px;
+        top:0%;
+    }
+}

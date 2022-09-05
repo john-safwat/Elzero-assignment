@@ -1,0 +1,50 @@
+.parent
+{
+    width: 400px;
+    margin: 20px auto;
+    padding: 5px 5px 0;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.one,
+.two,
+.three
+{
+    list-style: none;
+    margin: 10px;
+    background-color: #EEE;
+    padding: 10px;
+}
+.one ol 
+{
+    margin-top:10px ;
+}
+.one ol li
+{
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+.two ol 
+{
+    margin-top:10px ;
+}
+.two ol li
+{
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+.three ul 
+{
+    margin-top:10px ;
+    padding-left: 0px;
+}
+.three ul li
+{
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 5px;
+    list-style-position: inside;
+}

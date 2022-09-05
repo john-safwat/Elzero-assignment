@@ -1,0 +1,59 @@
+table
+{
+    width: 700px;
+    margin: auto;
+    text-transform: capitalize;
+    border-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    border-bottom:2px solid rgb(56, 149, 136) ;
+}
+table caption
+{
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(39, 39, 39);
+    font-weight: 700;
+    letter-spacing: 1px;
+    
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+table thead
+{
+    background-color: rgb(64, 64, 64);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+table thead td
+{
+    padding: 15px;
+}
+table tbody 
+{
+    background-color: #EEE;
+    
+}
+table tbody td
+{
+    padding: 5px;
+}
+
+.view
+{
+    border: none;
+    background-color:rgb(81, 166, 249) ;
+    color: white;
+    width:50px;
+    height: 22px;
+}
+.delete
+{
+    border: none;
+    background-color:rgb(219, 40, 99) ;
+    color: white;
+    width:50px;
+    height: 22px;
+}

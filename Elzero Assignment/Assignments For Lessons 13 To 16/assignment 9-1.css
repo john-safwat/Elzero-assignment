@@ -1,0 +1,38 @@
+.parent .child .title
+{
+    color:red;
+}
+.parent .title
+{
+    color:blue;
+}
+/* p
+{
+    color:green;
+}
+.title
+{
+    color:green;
+} */
+.title,
+p
+{
+    color:green;
+}
+
+div
+{
+    background-color: rgb(155, 46, 39);
+    display: block;
+    margin-top:10px;
+    max-width: 400px;
+    height: 25px;
+    padding:20px 20px 20px 20px;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+    font-size:16px;
+    overflow: hidden;
+}

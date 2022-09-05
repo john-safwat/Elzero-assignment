@@ -1,0 +1,17 @@
+div
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    margin:20px auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600    ;
+    color: orangered;
+    background-color: #EEE;
+    box-shadow: 6px 0px 0px 0px #f05d06 ,-6px 0px 0px 0px #51a6f9;
+}

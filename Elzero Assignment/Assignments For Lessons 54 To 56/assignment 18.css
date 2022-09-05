@@ -1,0 +1,67 @@
+.user
+{
+    width: 600px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    background-color: #EEE;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    position: relative;
+}
+.user::first-letter
+{
+    color: rgb(229, 73, 46);
+}
+.user::before
+{
+    content: "";
+    width: 620px;
+    height: 90px;
+    position: absolute;
+    top: -7px;
+    left: -10px;
+    z-index: -1;
+    background-image: linear-gradient(to right, #e5492e 20%,#5292f8 20% ,#5292f8 40%,#5aaf44 40% , #5aaf44 60% , #db2863 60% ,#db2863 80%,#6a34bc 80% );
+}
+
+
+.div
+{
+    width: 600px;
+    height: 50px;
+    margin: 30px auto;
+    position: relative;
+}
+.input
+{
+    border: none;
+    background-color: #EEE;
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    caret-color: #e5492e;
+}
+
+.div::before
+{
+    content: "";
+    width: 600px;
+    height: 3px;
+    background-image: linear-gradient(to right , #e5492e 50% ,#e5492e 50%,#389588 50%);
+    position: absolute;
+    bottom: -3px;
+}
+
+.input:focus
+{
+    outline: none;
+}

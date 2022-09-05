@@ -1,0 +1,118 @@
+
+:root
+{
+    --bgcolor:#EEE;
+    --color:#DDD;
+    --padding:10px;
+    --margin:10px
+}
+li
+{   
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+ul
+{
+    padding-left: 0;
+    margin: 0;
+}
+.page 
+{
+    width: 99%;
+    height: 360px;
+    background-color: #EEE;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.page .header
+{
+    height: 14%;
+    margin-bottom: 1%;
+}
+.page .main-area
+{
+    height: 70%;
+}
+.page .footer
+{
+    height: 14%;
+    margin-top: 1%;
+}
+
+.page .header 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.page .header .logo
+{
+    background-color: var(--color);
+    width: 8%;
+    margin-right: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page .header .links
+{
+    background-color: var(--color);
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px ;
+}
+
+.page .main-area 
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+.page .main-area .content
+{ 
+    background-color: var(--color);
+    width: 70%;
+    margin-right: 1%;
+    padding: 10px;
+}
+.page .main-area .sidebar
+{ 
+    background-color: var(--color);
+    width: 34%;
+    
+    padding: 10px;
+}
+
+.page .footer 
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.page .footer .copyright
+{
+    background-color: var(--color);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    padding-left: 20px ;
+}
+.page .footer .design
+{
+    background-color: var(--color);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    padding-right: 20px ;
+}

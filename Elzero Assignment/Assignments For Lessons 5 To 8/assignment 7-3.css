@@ -1,0 +1,70 @@
+.assign-1-shape-1
+{
+    width:400px;
+    height:400px;
+    margin:auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: antiquewhite;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat: no-repeat;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color: aliceblue;
+    background-size: 80%;
+}
+.assign-1-shape-2
+{
+    width:400px;
+    height:400px;
+    margin:auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: antiquewhite;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat: repeat-y;
+    background-position: right;
+    background-size: 80%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color: aliceblue;
+    
+}
+.assign-1-shape-3
+{
+    width:400px;
+    height:400px;
+    margin:auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: antiquewhite;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 80%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color: aliceblue;
+    
+}
+.assign-1-shape-4
+{
+    width:400px;
+    height:400px;
+    margin:auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: antiquewhite;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 50%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color: aliceblue;
+    
+}
